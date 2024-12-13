@@ -2,12 +2,16 @@
 __pycache__/
 *.log
 *.tmp
+*.pyc
+
 
 # Omgevingsbestanden
 .venv
 secrets.json
-.venv/
+venv/
 trading1_env/
+
+.env
 
 # Data-bestanden
 *.csv
