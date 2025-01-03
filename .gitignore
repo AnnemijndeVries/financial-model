@@ -3,6 +3,7 @@ __pycache__/
 *.log
 *.tmp
 *.pyc
+.ipynb
 
 
 # Omgevingsbestanden
