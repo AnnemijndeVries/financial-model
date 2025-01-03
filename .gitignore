@@ -15,6 +15,3 @@ secrets.json
 # Data-bestanden
 *.csv
 data/
-
-# API KEYS
-FRED_API_KEY = '7a6582b9cbf7722c07b0db7cad42e67a'
