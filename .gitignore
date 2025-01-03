@@ -3,15 +3,13 @@ __pycache__/
 *.log
 *.tmp
 *.pyc
-.ipynb
+*.ipynb
+*.csv
 
 
 # Omgevingsbestanden
 .venv
 secrets.json
-venv/
-trading1_env/
-
 .env
 
 # Data-bestanden
