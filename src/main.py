@@ -1,26 +1,13 @@
-import technische_analyse
-import fundamentele_analyse
-import fin_model
-import train_lstm_model
+import analyses.technische_analyse as technische_analyse
+import analyses.fundamentele_analyse as fundamentele_analyse
+import models.train_lstm_model as train_lstm_model
+import analyses.fin_model as fin_model
 import yfinance as yf
 import pandas as pd
-import numpy as np
 from imblearn.over_sampling import SMOTE
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.linear_model import Lasso
-from sklearn.decomposition import PCA
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout, Input
-from tensorflow.keras.optimizers import Adam
-from sklearn.metrics import accuracy_score, classification_report
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.callbacks import ModelCheckpoint
-from keras.losses import binary_crossentropy
 from imblearn.over_sampling import SMOTE
-from logging_config import setup_logger
+from config.logging_config import setup_logger
 
 # import logging
 # import sys

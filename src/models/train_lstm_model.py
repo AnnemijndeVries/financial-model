@@ -9,7 +9,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout, Input
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 from keras.losses import binary_crossentropy
-from logging_config import setup_logger
+from config.logging_config import setup_logger
 import tensorflow as tf
 
 
